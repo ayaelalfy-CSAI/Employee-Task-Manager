@@ -51,11 +51,12 @@ and JWT for secure authentication.
 ##  Project Structure
 
 Employee-Task-Manager/
-├── FinalEmployeeTaskManager/
-│   ├── backend/
-│   │   ├── AuthService/
-│   │   ├── TaskManagerService/
-│   │   ├── APIGateway/
-│   │   └── EurekaServer/
-|  └── pom.xml
-└── README.md
+└── FinalEmployeeTaskManager/
+   └── backend/
+     ├── AuthService/         – Login and JWT authentication
+     ├── TaskManagerService/  – Task creation and assignment
+     ├── APIGateway/          – API routing and filtering
+     └── EurekaServer/        – Service registry
+   └── pom.xml                – Parent Maven build configuration
+
+README.md – Project documentation
