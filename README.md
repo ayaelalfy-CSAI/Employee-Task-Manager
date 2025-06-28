@@ -46,17 +46,4 @@ and JWT for secure authentication.
 4. Then run `AuthService` and `TaskManagerService`
 5. Use tools like **Postman** to test login and task management endpoints
 
-----------
 
-##  Project Structure
-
-Employee-Task-Manager/
-└── FinalEmployeeTaskManager/
-   └── backend/
-     ├── AuthService/         – Login and JWT authentication
-     ├── TaskManagerService/  – Task creation and assignment
-     ├── APIGateway/          – API routing and filtering
-     └── EurekaServer/        – Service registry
-   └── pom.xml                – Parent Maven build configuration
-
-README.md – Project documentation
